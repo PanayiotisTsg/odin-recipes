@@ -33,10 +33,39 @@ a {
     font-size: 20px;
 }
 
-img {
+.img-prev {
     width: 400px;
     height: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
     object-fit: cover;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.img-recipe {
+    width: 600px;
+    display: block;
+    margin: auto auto 20px auto;
+    border-radius: 10px;
+}
+
+.section-title,
+.section-details {
+    width: 600px;
+    margin: auto;
+}
+
+.section-details {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+}
+
+.section-details li {
+    padding: 7px;
 }
