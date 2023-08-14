@@ -20,8 +20,9 @@ body {
 }
 
 .recipe-box {
+    background-color:rgb(0, 255, 242);
     border: 1px solid grey;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -36,7 +37,7 @@ a {
 .img-prev {
     width: 400px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     margin-bottom: 10px;
     object-fit: cover;
 }
